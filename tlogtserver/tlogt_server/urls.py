@@ -1,5 +1,5 @@
 from django.conf.urls.defaults import patterns, include, url
 
 urlpatterns = patterns('',
-    url(r'^', include('tlogt_server.urls')),
+        url(r'^$', 'tlogt_server.views.dashboard', name='dashboard'),
 )

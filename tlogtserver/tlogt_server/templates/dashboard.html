@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block content_main %}
+{{ block.super }}
+<div id="dashboard">
+    <div id="parsers">
+        {% for parser in parsers %}
+        <div class="parser">
+            {{ parser }}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
