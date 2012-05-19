@@ -1,0 +1,100 @@
+May 14 18:51:06 d7000 unix_chkpwd[991]: password check failed for user (kdas)
+May 14 19:02:03 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 15 02:22:39 d7000 sudo:     kdas : TTY=pts/1 ; PWD=/junk/code/jhbuild ; USER=root ; COMMAND=/usr/bin/sudo yum install @development-tools @gnome-software-development
+May 15 02:34:59 d7000 sudo:     kdas : TTY=pts/1 ; PWD=/junk/code/jhbuild ; USER=root ; COMMAND=/usr/bin/yum install libjpeg-devel pam-devel libdb-devel libcurl-devel libudev-devel libtasn1-tools libarchive-devel cyrus-sasl-devel perl-Text-CSV wget yajl-devel device-mapper-devel libnl-devel exiv2-devel libexif-devel mesa-libGLU-devel boost-devel soundtouch-devel perl-XML-Simple openssl-devel xcb-util-devel libtiff-devel pam-devel wireless-tools-devel libudev-devel gperf libacl-devel libuuid-devel ppp-devel cmake libicu-devel lcov valgrind-devel gdbm-devel libtool-ltdl-devel libvorbis-devel openldap-devel vala vala-devel perl-Parse-Yapp samba4-pidl gnome-doc-utils cups-devel folks-devel libXtst-devel gnome-bluetooth-libs-devel readline-devel mpfr-devel neon-devel libchamplain-gtk-devel python-devel libjpeg-turbo-devel usbutils libgudev1-devel libXt-devel libusb1-devel libudisks2-devel udisks2 xorg-x11-drv-wacom-devel libtasn1-tools dbus-python libffi-devel libxml2-python -y
+May 15 09:28:32 d7000 sudo:     kdas : TTY=pts/0 ; PWD=/media/Transcend ; USER=root ; COMMAND=/usr/bin/rsync -azvr --progress /home/kdas/ backup/
+May 15 09:30:04 d7000 sudo:     kdas : TTY=pts/0 ; PWD=/media/Transcend/backup ; USER=root ; COMMAND=/usr/bin/du -sh
+May 15 10:58:06 d7000 unix_chkpwd[21233]: password check failed for user (kdas)
+May 15 10:58:09 d7000 sudo:     kdas : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/junk/code/jhbuild ; USER=root ; COMMAND=/usr/bin/yum install libjpeg-devel pam-devel libdb-devel libcurl-devel libudev-devel libtasn1-tools libarchive-devel cyrus-sasl-devel perl-Text-CSV wget yajl-devel device-mapper-devel libnl-devel exiv2-devel libexif-devel mesa-libGLU-devel boost-devel soundtouch-devel perl-XML-Simple openssl-devel xcb-util-devel libtiff-devel pam-devel wireless-tools-devel libudev-devel gperf libacl-devel libuuid-devel ppp-devel cmake libicu-devel lcov valgrind-devel gdbm-devel libtool-ltdl-devel libvorbis-devel openldap-devel vala vala-devel perl-Parse-Yapp samba4-pidl gnome-doc-utils cups-devel folks-devel libXtst-devel gnome-bluetooth-libs-devel readline-devel mpfr-devel neon-devel libchamplain-gtk-devel python-devel libjpeg-turbo-devel usbutils libgudev1-devel libXt-devel libusb1-devel libudisks2-devel udisks2 xorg-x11-drv-wacom-devel libtasn1-tools dbus-python
+May 15 10:58:09 d7000 sudo:     kdas : (command continued) libffi-devel libxml2-python -y
+May 15 14:34:59 d7000 unix_chkpwd[29159]: password check failed for user (kdas)
+May 15 14:35:05 d7000 unix_chkpwd[29163]: password check failed for user (kdas)
+May 15 14:35:05 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 15 17:50:51 d7000 runuser: pam_unix(runuser:session): session opened for user qpidd by (uid=0)
+May 15 17:50:51 d7000 runuser: pam_unix(runuser:session): session closed for user qpidd
+May 15 17:50:51 d7000 runuser: pam_unix(runuser:session): session opened for user qpidd by (uid=0)
+May 15 17:50:54 d7000 runuser: pam_unix(runuser:session): session closed for user qpidd
+May 15 17:50:55 d7000 runuser: pam_unix(runuser-l:session): session opened for user qpidd by (uid=0)
+May 15 17:50:55 d7000 runuser: pam_unix(runuser-l:session): session closed for user qpidd
+May 15 17:50:59 d7000 sshd[1159]: Server listening on 0.0.0.0 port 22.
+May 15 17:50:59 d7000 sshd[1159]: Server listening on :: port 22.
+May 15 17:51:09 d7000 gdm-welcome][1640]: pam_unix(gdm-welcome:session): session opened for user gdm by (uid=0)
+May 15 17:51:23 d7000 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session1 (system bus name :1.34 [gnome-shell --gdm-mode], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 15 17:51:34 d7000 gdm-password][1887]: pam_unix(gdm-password:session): session opened for user kdas by (uid=0)
+May 15 17:51:34 d7000 gdm-welcome][1640]: pam_unix(gdm-welcome:session): session closed for user gdm
+May 15 17:51:34 d7000 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session1 (system bus name :1.34, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May 15 17:51:45 d7000 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.65 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+May 15 18:39:30 d7000 su: pam_unix(su-l:session): session opened for user root by kdas(uid=500)
+May 15 22:01:03 d7000 unix_chkpwd[16956]: password check failed for user (kdas)
+May 15 22:01:03 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 15 22:01:03 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 16 01:45:03 d7000 su: pam_unix(su-l:session): session closed for user root
+May 16 08:45:34 d7000 unix_chkpwd[21187]: password check failed for user (kdas)
+May 16 08:45:34 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 16 08:45:34 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 16 08:46:35 d7000 sudo:     kdas : TTY=pts/0 ; PWD=/home/kdas ; USER=root ; COMMAND=/usr/bin/tailf /var//log/messages
+May 16 08:48:09 d7000 su: pam_unix(su-l:session): session opened for user root by kdas(uid=500)
+May 16 08:53:52 d7000 sudo:     kdas : TTY=pts/0 ; PWD=/home/kdas ; USER=root ; COMMAND=/usr/bin/tailf /var//log/messages
+May 16 09:52:54 d7000 su: pam_unix(su-l:session): session closed for user root
+May 17 03:40:33 d7000 unix_chkpwd[25940]: password check failed for user (kdas)
+May 17 03:40:33 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 17 03:40:33 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 17 22:03:07 d7000 sudo:     kdas : TTY=pts/1 ; PWD=/junk/linus/linux-2.6 ; USER=root ; COMMAND=/bin/vi /etc/resolv.conf
+May 17 22:03:46 d7000 sudo:     kdas : TTY=pts/1 ; PWD=/junk/linus/linux-2.6 ; USER=root ; COMMAND=/bin/vi /etc/resolv.conf
+May 18 07:15:18 d7000 unix_chkpwd[28978]: password check failed for user (kdas)
+May 18 07:15:18 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 18 07:15:18 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 18 09:06:20 d7000 unix_chkpwd[10526]: password check failed for user (kdas)
+May 18 09:06:20 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 18 09:06:20 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 18 11:37:22 d7000 unix_chkpwd[12677]: password check failed for user (kdas)
+May 18 11:37:22 d7000 userhelper[12666]: pam_unix(system-config-date:auth): authentication failure; logname= uid=500 euid=0 tty= ruser=kdas rhost=  user=kdas
+May 18 11:37:29 d7000 unix_chkpwd[12689]: password check failed for user (kdas)
+May 18 11:37:35 d7000 unix_chkpwd[12701]: password check failed for user (kdas)
+May 18 11:37:38 d7000 userhelper[12666]: PAM 2 more authentication failures; logname= uid=500 euid=0 tty= ruser=kdas rhost=  user=kdas
+May 18 12:08:11 d7000 unix_chkpwd[13114]: password check failed for user (kdas)
+May 18 12:08:11 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 18 12:08:11 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 18 12:08:23 d7000 su: pam_unix(su-l:session): session opened for user root by kdas(uid=500)
+May 18 12:09:51 d7000 su: pam_unix(su-l:session): session closed for user root
+May 18 12:09:56 d7000 sudo:     kdas : TTY=pts/1 ; PWD=/junk/fedpkg/lekhonee-gnome ; USER=root ; COMMAND=/usr/bin/tailf /var/log/messages
+May 18 14:12:02 d7000 unix_chkpwd[15589]: password check failed for user (kdas)
+May 18 14:12:02 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 18 14:12:02 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 18 22:20:04 d7000 unix_chkpwd[18990]: password check failed for user (kdas)
+May 18 22:20:04 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 18 22:20:04 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 18 22:46:11 d7000 unix_chkpwd[19591]: password check failed for user (kdas)
+May 18 22:46:11 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 18 22:46:11 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 18 22:46:16 d7000 unix_chkpwd[19597]: password check failed for user (kdas)
+May 18 22:46:16 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 18 22:46:16 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 18 22:46:21 d7000 unix_chkpwd[19600]: password check failed for user (kdas)
+May 18 22:46:21 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 18 22:46:21 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 18 22:46:26 d7000 unix_chkpwd[19603]: password check failed for user (kdas)
+May 18 22:46:26 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 18 22:46:26 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 19 06:11:13 d7000 unix_chkpwd[22678]: password check failed for user (kdas)
+May 19 06:11:13 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 19 06:11:13 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 19 07:22:58 d7000 unix_chkpwd[23050]: password check failed for user (kdas)
+May 19 07:22:58 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 19 07:22:58 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 19 07:23:02 d7000 unix_chkpwd[23059]: password check failed for user (kdas)
+May 19 07:23:02 d7000 gnome-screensaver-dialog: pam_unix(gnome-screensaver:auth): authentication failure; logname= uid=500 euid=500 tty=:0.0 ruser= rhost=  user=kdas
+May 19 07:23:02 d7000 gnome-screensaver-dialog: gkr-pam: the password for the login keyring was invalid.
+May 19 13:19:21 d7000 su: pam_unix(su-l:session): session opened for user root by kdas(uid=500)
+May 19 14:50:00 d7000 su: pam_unix(su-l:session): session closed for user root
+May 19 14:50:19 d7000 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session2 (system bus name :1.65, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8) (disconnected from bus)
+May 19 14:50:24 d7000 gdm-welcome][7240]: pam_unix(gdm-welcome:session): session opened for user gdm by (uid=0)
+May 19 14:50:30 d7000 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session3 (system bus name :1.751 [gnome-shell --gdm-mode], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 19 14:50:49 d7000 unix_chkpwd[7300]: password check failed for user (kdas)
+May 19 14:50:49 d7000 gdm-password][7292]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=  user=kdas
+May 19 14:51:01 d7000 gdm-password][7302]: pam_unix(gdm-password:session): session opened for user kdas by (uid=0)
+May 19 14:51:01 d7000 polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session3 (system bus name :1.751, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+May 19 14:51:05 d7000 polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session4 (system bus name :1.769 [/usr/libexec/lxpolkit], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.utf8)
+May 19 20:55:08 d7000 sudo:     kdas : TTY=pts/2 ; PWD=/home/kdas ; USER=root ; COMMAND=/usr/bin/yum install gobby
+May 19 21:12:24 d7000 su: pam_unix(su-l:session): session opened for user root by kdas(uid=500)
+May 19 22:06:21 d7000 sudo:     kdas : 1 incorrect password attempt ; TTY=pts/0 ; PWD=/home/kdas/code/git/tlogt ; USER=root ; COMMAND=/bin/ls
