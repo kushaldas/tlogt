@@ -7,7 +7,7 @@
     <div id="parsers">
         {% for parser in parsers %}
         <div class="parser">
-            {{ parser }}
+            <a href="{% url parser_page parser %}">{{ parser }}</a>
         </div>
         {% endfor %}
     </div>

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block content_main %}
+{{ block.super }}
+<div id="parser_dates">
+    <table id="parser_dates_table">
+        {% for date in dates_list %}
+        <tr>
+            <td>
+                <a href="{% url parser_page_on_specific_date parser_name forloop.counter0 %}">{{ date }}</a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr><td>{% trans "Not available" %}</td></tr>
+        {% endfor %}
+    </table>
+</div>
+<div id="parser_logs">
+    <table id="parser_logs_table">
+        {% for log in logs %}
+        <tr class="{{ log.status }}"><td>{{ log.text }}</td></tr>
+        {% empty %}
+        <tr><td>{% trans "There are no logs to display" %}</td></tr>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}
