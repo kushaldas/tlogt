@@ -34,4 +34,4 @@ def get_result(line=''):
         return {'text': line, 'status': 'error'}
     else:
         return {'text': line, 'status': 'info'}
-    
+                    
