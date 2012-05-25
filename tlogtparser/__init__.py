@@ -1,8 +1,8 @@
-from tlogtparser import Secure
-from tlogtparser import Boot
+from tlogtparser import secure
+from tlogtparser import boot
 def get_parsers():
     """
     Get the list of parsers available
     """
-    return ['Boot', 'Secure']
+    return ['boot', 'secure']
     
